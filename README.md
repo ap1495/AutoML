@@ -5,7 +5,7 @@ Flask web application to automate data science related tasks.
 
 1. Clone the repo.
 2. Install Flask if not already installed.
-3. Run the .py file.
+3. Run the aaml_v6.py file.
 
 # Tech Stack
 

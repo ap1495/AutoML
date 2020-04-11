@@ -37,8 +37,14 @@
 					<p><b>R-squared:</b> {{ p }}</p>
 				{% endif %}
 				
+				{% if loop.index == 6 %}
+					<p><b>Coeffcients/Feature Importance:</b> {{ p | safe }}</p>
+				{% endif %}
+				
 			{% endfor %}
+			<br>
 			<hr>
+			<br>
 		{% endfor %}
 	{% endif %}
 	
@@ -61,8 +67,14 @@
 					<p><b>Classification Report:</b> {{ p | safe }}</p>
 				{% endif %}
 				
+				{% if loop.index == 5 %}
+					<p><b>Coeffcients/Feature Importance:</b> {{ p | safe }}</p>
+				{% endif %}
+				
 			{% endfor %}
+			<br>
 			<hr>
+			<br>
 		{% endfor %}
 	{% endif %}
 	</div>
